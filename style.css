@@ -1,0 +1,113 @@
+body{
+  background-color:   #ff99ff;
+  font-family:Helvetica;
+}
+h1{
+  /*цвет текста*/
+  color: #000000;
+  /*расстояние между буквами*/
+  letter-spacing: 0.5cm;
+  /*тип шрифта*/
+  font-family: Arial, Helvetica;
+  font-size: 50px;
+}
+#teine{
+  color: #000000;
+  letter-spacing: 1cm;
+  font-family: Arial;
+  font-size:25px;
+  /*рамка, solid - сплощная*/
+  border: solid 1pt;
+  border-radius:120px;
+  text-align: center;
+}
+div#tekst{
+  position: absolute;
+  top:360px;
+  left: 1000px;
+  width:200px;
+  height:100px;
+  border:solid 3px #ffff1a;
+  padding:1%;
+  border-radius:30px 120px 10px 200px;
+  background-image: url('smile.png'); 
+}
+div#sushi1{
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  width: 50px;
+  height:100px;
+}
+
+div#sushi2{
+  position: absolute;
+  top: 250px;
+  left:1115px;
+  width: 50px;
+  height:100px;
+  }
+
+  div#sushi3{
+  position: absolute;
+  top: 270px;
+  left:800px;
+  width: 50px;
+  height:100px;
+  }
+
+   div#sushi4{
+  position: absolute;
+  top: 300px;
+  left:480px;
+  width: 50px;
+  height:100px;
+  }
+
+
+
+nav ul{
+  list-style-type:none;
+  margin-left:50%;
+  font-style: italic;
+  /*width:150px;*/
+  overflow:hidden;/*управляем отоброжением элемента*/  
+}
+nav li{
+  float:left; /*обтекание текста по правому краю*/
+}
+nav li a{
+  background-color:#ccf444;
+  display: inline-block;
+  text-align:center;
+  padding:15px;
+  
+  border-radius:30px 120px 10px 200px;
+  text-decoration:none;/*убирает подчеркивания текста в ссылки*/
+}
+main{
+  background-color:#ccf444;
+  margin-left:200px;
+  padding:4.5cm;
+  overflow:visible;
+  width:50%;  
+  
+}
+header, footer{
+  padding:0.5cm;
+  background-color:#ff0066;
+  text-align:right;
+}
+nav li a:hover{
+  /*hover - ссылка в фокусе*/
+  text-decoration:underline;
+} 
+a:link, a:visited, a:active{
+  color:black;
+  text-decoration:none;
+}
+/*.lingi_nimetused a{
+  color:red;
+  font-size:140%;*/
+  
+}

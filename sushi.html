@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vormid</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet"type="text/css" href="style.css">
+	<script type="text/javascript">
+	function hind(){
+		var vastus=document.getElementById("vastus");
+		var kogus=document.getElementById("kogus");
+		var pilt=document.getElementById("pilt");
+		var sushid=new Array('...','Krivetitega', 'Kanaga', 'Veggi', 'Kalkuniga');
+		var sushi=document.getElementById("sushi");
+		
+		if('Krivetitega'){
+		pilt.src="sushi1.jpg";
+		}
+		else{
+		}
+		vastus.innerHTML=
+		"Sa valisid " + sushid[sushi.selectedIndex] +
+		" sushit. <br>" + 
+		"Maksumus on "+ (4) + " euro";
+		
+		if('Kanaga'){
+		pilt.src="sushi2.jpg";
+		}
+		else{
+		}
+		vastus.innerHTML=
+		"Sa valisid " + sushid[sushi.selectedIndex] +
+		" sushit. <br>" + 
+		"Maksumus on "+ (5) + " euro";
+
+		
+		}
+		</script>
+	</head>
+	<body>
+	<h2> Sushi valik</h2>
+	<form>
+		Sisesta sushi:
+		<select id="sushi" onchange="hind()">
+		<option>...</option>
+		<option>Krivetitega</option>
+		<option>Kanaga</option>
+		<option>Veggi</option>
+		<option>Kalkuniga</option>
+		</select>
+		
+		<!--<input type="button" value="OK" onclick="hind()">-->
+		<div id="vastus"> Maksumus on ...</div>
+	<img src="valimata1.png" alt="küsimärk" id="pilt">
+	</form>
+	</body>
+	</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
