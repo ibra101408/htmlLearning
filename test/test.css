@@ -1,0 +1,53 @@
+
+div#kusimus1{
+  position: absolute;
+  top: 60px;
+  left:2px;
+  width: 500px;
+  height:95px;
+  border:solid 3px blue;
+  padding:1%;
+  border-radius:10px 10px 535px 130px;
+  background-color: lightyellow;
+ 
+}
+div#kusimus2{
+  position: absolute;
+  top: 200px;
+  left:2px;
+  width: 520px;
+  height:260px;
+  border:solid 3px blue;
+  padding:1%;
+  border-radius:10px 10px 55px 30px;
+  background-color: lightyellow;
+ 
+}
+
+div#kusimus3{
+  position: absolute;
+  top: 505px;
+  left:2px;
+  width: 500px;
+  height:95px;
+  border:solid 3px blue;
+  padding:1%;
+  border-radius:30px 25px 25px 6px;
+  background-color: lightyellow;
+  }
+  
+  div#kusimus4{
+  position: absolute;
+  top: 645px;
+  left:2px;
+  width: 500px;
+  height:95px;
+  border:solid 3px blue;
+  padding:1%;
+  border-radius:19px 70px 55px 30px;
+  background-color: lightyellow;
+  }
+body{
+  background-color:#ccccff;
+  font-family:Helvetica;
+  }
